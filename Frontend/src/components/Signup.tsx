@@ -18,7 +18,7 @@ const Signup: React.FC = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/signup', {
+            const response = await fetch('https://h-4-c-protob.vercel.app/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
